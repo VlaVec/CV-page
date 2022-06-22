@@ -1,0 +1,152 @@
+
+
+body {
+    background-image: url(background.jpg);
+    background-color: rgb(239, 241, 241);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Tai Heritage Pro', serif;
+    font-weight: 400;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(75, 87, 102);
+    line-height: 1.0;
+        
+}
+
+/* Menu style */
+
+nav {
+    width: 100%;
+}
+
+.navigation {
+	width: 100%;
+	display: table;
+}
+.navigation ul {
+	display: table-row;
+}
+.navigation li {
+	display: table-cell;
+	background: #1bbb43;
+}
+.navigation ul li:hover, .menu a:hover {
+	background: rgba(193, 196, 196, 0.5); 
+}
+.navigation li a {
+	display: block;
+	padding: 20px 15px;
+	color: #fff;
+	text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+/* Main part style */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center center;
+    max-width: 100%;
+}
+
+.innerframe {
+    background-color: rgba(193, 196, 196, 0.5);
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* Upper part (photo/name/general information) */
+
+.CV_header {
+    display: flex;
+    align-content: center;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Round border for photo */
+.round {
+    border-radius: 100px;
+}
+
+
+/* Icons size */
+.picture {
+    width: 12px;
+}
+
+#Photo {
+padding-right: 10px;
+width: 50%;
+height: auto;
+}
+
+#Descr {
+    padding-left: 10px;
+}
+
+.maininfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+}
+
+h2    {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+h3    {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #1bbb43;
+}
+h4      {
+    font-family: 'Roboto', sans-serif;
+    color: #1bbb43;
+}    
+
+#Company {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Location {
+    font-weight: 700;
+    font-style: italic;
+}
+
+#EdInfo {
+    padding-bottom: 2%;
+}
+
+
+.city {
+    text-align: left;
+}
+
+a {
+text-decoration: none;
+}
